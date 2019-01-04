@@ -7,7 +7,7 @@ public class ReverseName {
         System.out.println("Enter your name");
         String name = scan.nextLine();
         String backwards = "";
-        for (int i = name.length() - 1; i >= 0; i -=2) // i am grabbing every character
+        for (int i = name.length() - 1; i >= 0; i --) // i am grabbing every character
         {
             backwards += name.charAt(i);
         }
