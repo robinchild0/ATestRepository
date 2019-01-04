@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class RandomRange {
 	
-	public static void main(String args) {
+	public static void main(String[] args) {
 		System.out.println("Give lower and upper bound (int)");
 		Scanner scan = new Scanner(System.in);
 		try {
 			int x = scan.nextInt();
 			int y = scan.nextInt();
-			System.out.println("Random int: " + (Math.random()+y)*x);
+			System.out.println("Random int: " + ((int)(Math.random()*(y-x))+x));
 		}
 		catch(Exception e) {
 			System.out.println("Error");
