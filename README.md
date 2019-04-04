@@ -1,4 +1,7 @@
 # ATestRepository
+## What is this?
+This is a test repository that a couple students used to learn a little about how git and github works.
+Disregard the rest of the readme.
 ## How to prank someone
 - Step one: Don't
 ## How to not prank someone
